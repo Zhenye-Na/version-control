@@ -1,0 +1,34 @@
+What happens when you initialize a repository? Why do you need to do it?
+	
+	git init
+	It said 'Initial Commit' and all the files are stay in the 'untracked files' 
+	status. Later, you can use 'git add' command to add the files to Staging Area.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+	The Staging Are is kind of the transition mode of your git commit. You first 
+	'git add' the files to Staging Area. That will not directly commit your files
+	to repository. Rhis may help if you select a wrong file and you delete ('git reset')
+	or you think the files are enough and you can commit to your repository.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+	One commit for only one stage of your project.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+	Branches is useful when you accomodate something un-official to publish.
+	'git branch <name-of-branch>'
+	'git checkout <name-of-branch>'
+	Where the asterisk (*) is, it indicates the branch you currently are.
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?

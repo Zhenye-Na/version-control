@@ -1,4 +1,4 @@
-## Cloning a Repository
+# Cloning a Repository
 To clone a repository, run git clone followed by a space and the repository URL.
 
 ## Asteroids URL
